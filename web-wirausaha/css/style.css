@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f8ff;
+}
+.typing-effect {
+    color: white;
+   display: inline-block;
+   overflow: hidden; /* Ensures the text is hidden initially */
+   white-space: nowrap; /* Prevents text wrapping */
+   animation: typing 4s steps(50, end), blink-caret 0.80s step-end infinite;
+}
+.card1{
+   background-image: url(../gambar/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   color:white;
+}
+.card2{
+   background-image: url(../gambar/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   color:white;
+}
+.card3{
+   background-image: url(../gambar/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   color:white;
+}
+.card4{
+   background-image: url(../gambar/kwu.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   color:white;
+}
+.social{
+  text-align: center;
+  padding-bottom: 35px;
+  color: blue;
+}
+.social a{
+font-size: 25px;
+color: white;
+border:2px solid transparent;
+width: 42px;
+height: 42px;
+line-height: 42px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin: 0 10px;
+transition: 0.3s ease-in-out;
+}
+.social a:hover{
+  transform: scale(1.2) translateY(-10px); 
+  background-color:blue ;
+  color: white;
+  
+} 
+.footer{
+   background-image: url(../gambar/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+
+}
+@keyframes typing {
+   from { width: 0; }
+   to { width: 77%; }
+}
+
+@keyframes blink-caret {
+   from, to { border-color: transparent; }
+   30% { border-color: black; }
+}
